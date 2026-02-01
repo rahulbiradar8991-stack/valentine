@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container" id="mainContent">
+
+  <h1>
+    Aadmi acha hoon, Irada bhi nek hain,<br>
+    And mauka bhi Valentine ka hain,<br>
+    tho kya kehti ho chale?
+  </h1>
+
+  <div class="buttons">
+    <button onclick="celebrate('yes')">Yes</button>
+    <button onclick="celebrate('ofcourse')">Of course</button>
+  </div>
+
+</div>
+
+<div class="celebration hidden" id="celebration">
+  <h2>Congratulation, you are now stuck with me all your life 🥰❤️</h2>
+  <img id="resultImage">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
