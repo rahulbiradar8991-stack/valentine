@@ -1,8 +1,3 @@
-const music = document.getElementById("bg-music");
-
-function playMusic() {
-    music.play();
-}
 // Floating hearts generator (low frequency)
 setInterval(() => {
   const heart = document.createElement("div");
@@ -48,4 +43,5 @@ function startConfetti() {
     setTimeout(() => confetti.remove(), 6000);
   }
 }
+
 
