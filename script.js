@@ -43,5 +43,3 @@ function startConfetti() {
     setTimeout(() => confetti.remove(), 6000);
   }
 }
-
-
